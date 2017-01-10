@@ -38,6 +38,10 @@ public class TV {
 	}
 	
 	public void channel( int channel ) {
+		if( power == false ){
+			return;
+		}
+		
 		if( channel < 1 ) {
 			channel = 255;
 		}
@@ -55,6 +59,10 @@ public class TV {
 	}
 	
 	public void volume( int volume ) {
+		if( power == false ){
+			return;
+		}
+		
 		if( volume < 0 ) {
 			volume = 0;
 		}
