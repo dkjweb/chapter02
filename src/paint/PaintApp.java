@@ -11,26 +11,31 @@ public class PaintApp {
 
 		Rectangle rectangle = new Rectangle();
 		Circle circle = new Circle();
+		Triangle triangle = new Triangle();
 		
 		// 그리기
-		drawPoint( pt1 );
-		drawPoint( pt2 );
-		drawPoint( pt3 );
+		draw( pt1 );
+		draw( pt2 );
+		draw( pt3 );
 		
 //		drawRectangle( rectangle );
 //		drawCircle( circle );
-		drawShape( rectangle );
-		drawShape( circle );
+		draw( rectangle );
+		draw( circle );
+		draw( triangle );
 	}
 
-
-	public static void drawPoint( Point point ) {
-		point.show();
+	public static void draw( Drawable drawable ) {
+		drawable.draw();
 	}
-
-	public static void drawShape( Shape shape ) {
-		shape.draw();
-	}
+	
+//	public static void drawPoint( Point point ) {
+//		point.show();
+//	}
+//	public static void drawShape( Shape shape ) {
+//		shape.draw();
+//	}
+	
 //	public static void drawRectangle( Rectangle rectangle ) {
 //		rectangle.draw();
 //	}

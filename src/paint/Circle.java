@@ -1,6 +1,6 @@
 package paint;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Drawable {
 	private int x;
 	private int y;
 	private int radius;
