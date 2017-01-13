@@ -1,4 +1,6 @@
-package paint;
+package kr.ac.smu.paint.shape;
+
+import kr.ac.smu.paint.i.Drawable;
 
 public class Circle extends Shape implements Drawable {
 	private int x;

@@ -1,4 +1,4 @@
-package paint;
+package kr.ac.smu.paint.shape;
 
 public abstract class Shape {
 	private String color;

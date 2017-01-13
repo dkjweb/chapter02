@@ -1,4 +1,11 @@
-package paint;
+package kr.ac.smu.paint.main;
+
+import kr.ac.smu.paint.i.Drawable;
+import kr.ac.smu.paint.point.ColorPoint;
+import kr.ac.smu.paint.point.Point;
+import kr.ac.smu.paint.shape.Circle;
+import kr.ac.smu.paint.shape.Rectangle;
+import kr.ac.smu.paint.shape.Triangle;
 
 public class PaintApp {
 
